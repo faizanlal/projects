@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html>
+  <title>Jyotindra</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <link rel="stylesheet" href="r.css" />
+  <style>
+    .mySlides {
+      display: none;
+    }
+   
+
+  </style>
+
+  <body>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+    <div class="w3-container">
+      <p></p>
+    </div>
+
+    <div class="w3-content w3-display-container">
+      <div class="w3-display-container mySlides">
+        <img
+          src="https://o.remove.bg/uploads/2f3721b1-1b5e-4c6b-9dd4-89463749c608/IMG-20221018-WA0002.jpg"
+          style="width: 100%"
+        />
+      </div>
+
+      <div class="w3-display-container mySlides">
+       <center><img
+        src="https://o.remove.bg/uploads/eab9f0b5-cc09-4f22-844f-2eca86c63825/Screenshot_20221225-161718_WhatsApp.jpg"
+        style="width: 80%"
+        sizes="20px"
+      /></center> 
+      </div>
+
+      <div class="w3-display-container mySlides">
+        <center><img
+          src="https://o.remove.bg/uploads/2f0cf37b-3fe6-47a8-a5cc-8f3a9a84d3da/IMG-20221013-WA0002.jpg"
+          style="width: 50%"
+        /></center>
+      </div>
+
+      <button class="w3-button w3-display-left w3-black" onclick="plusDivs(-1)">
+        &#10094;
+      </button>
+      <button class="w3-button w3-display-right w3-black" onclick="plusDivs(1)">
+        &#10095;
+      </button>
+    </div>
+
+    <script>
+      var slideIndex = 1;
+      showDivs(slideIndex);
+
+      function plusDivs(n) {
+        showDivs((slideIndex += n));
+      }
+
+      function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        if (n > x.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = x.length;
+        }
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        x[slideIndex - 1].style.display = "block";
+      }
+    </script>
+  </body>
+  <style>
+    .card {
+      box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+      max-width: 300px;
+      margin: auto;
+      text-align: center;
+      font-family: arial;
+    }
+    
+    .title {
+      color: grey;
+      font-size: 18px;
+    }
+    
+  
+    
+    a {
+      text-decoration: none;
+      font-size: 22px;
+      color: black;
+    }
+    
+    button:hover, a:hover {
+      opacity: 0.7;
+    }
+    
+    </style>
+    </head>
+    <body>
+    
+    <h2 style="text-align:center">Reporter</h2>
+    
+    <div class="card">
+      <img src="https://o.remove.bg/uploads/4a6124a2-a559-4405-ba3a-d5248db3af06/IMG-20221018-WA0002.jpg" alt="John" style="width:100%">
+      <h1>Jyotindra Kumar Chovala</h1>
+      <p class="title">bhvhh</p>
+      <p>Daman Ganga Times</p>
+     
+      <p><button>Contact
+      <div>98887989090</div>
+      </button>
+      
+      </p>
+    </div>
+    
+ 
+<body background-image="https://miro.medium.com/max/1200/1*xMuIOwjliGUPjkzukeWKfw.jpeg" background-repeat="no-repeat" background-size="cover">
+
+    </body>
+    </html>
+</html>
+
